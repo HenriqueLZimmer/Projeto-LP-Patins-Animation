@@ -101,3 +101,21 @@ footer{
         }
     }
 }
+
+@media (width < 80em){
+    footer{
+        display: grid;
+
+        & nav{
+            display: grid;
+            margin-block: 3rem;
+
+            .mobile-only{
+                margin-block: 1.5rem;
+            }
+        }
+        & .social-links{
+            margin-bottom: 1.5rem;
+        }
+    }
+}
